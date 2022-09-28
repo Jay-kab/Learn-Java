@@ -36,8 +36,10 @@ public class Products {
 	double productDiscountedPrice () {
 		return (price * discountPercentage / 100);
 		
-	}
-
+		}
+	
+	
+	
 	double productFinalPrice () {
 		return (price + productDiscountedPrice() );
 		
